@@ -24,3 +24,11 @@
     url('../fonts/iransans-bold.ttf')  format('truetype'),
     url('../fonts/iransans-bold.svg#IRANSans') format('svg');
 }
+:root {
+    --tw-bg-opacity: 1;
+}
+body {
+    background-color: rgb(17 24 39/var(--tw-bg-opacity));
+    font-family: "IRANSans FaNum";
+    direction: rtl;
+}
