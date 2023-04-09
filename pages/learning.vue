@@ -26,7 +26,103 @@
 
       <div v-if="win && types" class="mt-2 mb-3">
         <label class="mb-2 block">مرحله 3:</label>
-        <div v-if="types === 'l2tp' && win === 'android_hw' || win === 'android_sum'">
+
+        <div v-if="types === 'openvpn' && win === 'android_shi' || types === 'openvpn' && win === 'android_hw'">
+
+
+          <div class="flex p-4 mb-4 text-sm text-red-800 border border-red-300 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400 dark:border-red-800" role="alert">
+            <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+            <span class="sr-only">Info</span>
+            <div>
+              <span class="font-medium">مواردی که باعث میشود نتوانید متصل شوید: </span>
+              <br>
+              <br>
+              1. تمام اطلاعات بدون فاصله وارد شود.
+              <br>
+              2. از صحیح بودن اطلاعات وارد شده اطمینان حاصل کنید.
+              <br>
+              3. نسبت به کوچک و بزرگ بودن اطلاعات اطمینان حاصل کنید.
+              <br>
+              4. از داشتن اینترنت مناسب و دارا بودن اینترنت فعال اطمینان حاصل کنید.
+              <br>
+              5. تمام vpn های رایگان و به غیر از ما را حذف کنید (باعث متصل نشدن میشوند).
+              <br>
+              6. چنانچه پیغام authorization failed دریافت کردید از وارد نمودن موارد username , password, pre-sharedkey حاصل نمایید .
+              <br>
+              7. اگر پیغام چند خطی دریافت نمودید از درست نوشتن آدرس سرور و اینترنت خود اطمینان حاصل نمایید.
+            </div>
+          </div>
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/1.jpg">
+          </div>
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/2.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/3.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/4.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/5.jpg">
+          </div>
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/6.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/7.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/8.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/9.jpg">
+          </div>
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/10.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/11.jpg">
+          </div>
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/12.jpg">
+          </div>
+
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/13.jpg">
+          </div>
+
+          <div class="text-center p-3">
+            <img class="mx-auto mt-2 rounded"  src="/android/sh/ovpn/14.jpg">
+          </div>
+
+
+
+        </div>
+
+
+        <div v-if="types === 'l2tp' && win === 'android_hw' || types === 'l2tp' && win === 'android_sum'">
 
           <div class="flex p-4 mb-4 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800" role="alert">
             <svg aria-hidden="true" class="flex-shrink-0 inline w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
