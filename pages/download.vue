@@ -32,6 +32,36 @@
       <div class="download-box mt-3 ">
 
         <div v-if="type === 'android'">
+
+          <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <div class="mb-2 text-2xl font-bold text-gray-900 dark:text-white flex items-center">
+              <img class="w-32 h-15 p-1 mx-auto rounded-full  ring-gray-300 dark:ring-gray-500" src="/img/wg.png" alt="Bordered avatar">
+              <div>
+                وایرگارد (WireGuard)
+                <br>
+
+              </div>
+            </div>
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+              <a href="https://arta20.xyz/download/wg.apk" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi ml-3 w-7 h-7 bi-cloud-arrow-down-fill" viewBox="0 0 16 16"> <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/> </svg>
+                <div class="text-right">
+                  <div class="mb-1 text-xs">دانلود با</div>
+                  <div class="-mt-1  text-sm font-semibold">لینک مستقیم  </div>
+                </div>
+              </a>
+
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.wireguard.android&hl=en_US" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                <svg class="ml-3 w-7 h-7" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google-play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path></svg>
+                <div class="text-right">
+                  <div class="mb-1 text-xs">دانلود در </div>
+                  <div class="-mt-1  text-sm font-semibold">گوگل پلی</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
           <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
             <div class="mb-2 text-2xl font-bold text-gray-900 dark:text-white flex items-center">
               <img class="w-32 h-15 p-1 mx-auto rounded-full  ring-gray-300 dark:ring-gray-500" src="/img/openvpn.png" alt="Bordered avatar">
@@ -129,6 +159,25 @@
 
         </div>
         <div v-if="type === 'windows'">
+          <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            <div class="mb-2 text-2xl font-bold text-gray-900 dark:text-white flex items-center">
+              <img class="w-32 h-15 p-1 mx-auto rounded-full  ring-gray-300 dark:ring-gray-500" src="/img/wg.png" alt="Bordered avatar">
+              <div>
+                وایرگارد (WireGuard)
+              </div>
+            </div>
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+              <a href="https://arta20.xyz/download/wg-windows.exe" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi ml-3 w-7 h-7 bi-cloud-arrow-down-fill" viewBox="0 0 16 16"> <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 6.854-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5a.5.5 0 0 1 1 0v3.793l1.146-1.147a.5.5 0 0 1 .708.708z"/> </svg>
+                <div class="text-right">
+                  <div class="mb-1 text-xs">دانلود با</div>
+                  <div class="-mt-1  text-sm font-semibold">لینک مستقیم</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
           <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
             <div class="mb-2 text-2xl font-bold text-gray-900 dark:text-white flex items-center">
               <img class="w-32 h-15 p-1 mx-auto rounded-full  ring-gray-300 dark:ring-gray-500" src="/img/openvpn.png" alt="Bordered avatar">
