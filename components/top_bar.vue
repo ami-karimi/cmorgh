@@ -3,10 +3,10 @@
     <div class="cmorgh-logos flex justify-center mt-5">
     <div class="text-center">
       <nuxt-link to="/">
-        <img class="w-24 h-24 p-1 mx-auto rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/img/cmorgh.png" alt="Bordered avatar">
+        <img class="w-24 h-24 p-1 mx-auto rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/img/cmorgh.jpg" alt="Bordered avatar">
       </nuxt-link>
       <div class="flex justify-center mt-8">
-        <h1 class="text-white">سیمرغ VPN</h1>
+        <h1 class="text-white">همراه سیمرغ ایران</h1>
         <small class="text-white mr-2">بر فراز آسمان ایران</small>
       </div>
 
